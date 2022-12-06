@@ -498,7 +498,8 @@ footer .container .pesornal-contacts p {
     line-height: 2.5rem;
   }
   .hero-section h1::before {
-    display: none;
+    height: 110px;
+    top: 5px;
   }
   .hero-section img {
     width: 310px;
@@ -683,6 +684,12 @@ footer .container .pesornal-contacts p {
   header ul {
     flex-wrap: wrap;
   }
+}
+
+@media(max-width: 340px) {
+  .hero-section h1{
+    font-size: 2rem;
+  } 
 }
 
 /*# sourceMappingURL=style.css.map */
