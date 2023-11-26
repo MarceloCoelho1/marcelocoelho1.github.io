@@ -60,8 +60,8 @@ const CONFIG = {
 		{
 			id: '2',
 			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			icon: 'file-text',
+			link: 'https://myportfolio-one-black.vercel.app/',
 		},
 		{
 			id: '3',
