@@ -59,7 +59,7 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
+			name: 'File-text',
 			icon: 'file-text',
 			link: 'https://myportfolio-one-black.vercel.app/',
 		},
