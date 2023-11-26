@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	// weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	// weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	// weatherUnit: 'C', // 'F', 'C'
+	// language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	// trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	// defaultLatitude: '37.775',
+	// defaultLongitude: '-122.419',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -71,15 +71,15 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Mail',
+			icon: 'mail',
+			link: 'mailto:mhbcoelho99@gmail.com',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'code',
+			icon: 'code',
+			link: 'https://github.com/MarceloCoelho1/marcelocoelho1.github.io',
 		},
 		{
 			id: '6',
@@ -135,29 +135,31 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'youtube',
+			titleTab: 'Latest videos',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Coming soon',
+					link: 'https://www.youtube.com/channel/UCFrO7cnUTyOYEJHO4dgHenw',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Coming soon',
+					link: 'https://www.youtube.com/channel/UCFrO7cnUTyOYEJHO4dgHenw',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Coming soon',
+					link: 'https://www.youtube.com/channel/UCFrO7cnUTyOYEJHO4dgHenw',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Coming soon',
+					link: 'https://www.youtube.com/channel/UCFrO7cnUTyOYEJHO4dgHenw',
 				},
 			],
 		},
 		{
 			icon: 'coffee',
+			titleTab: 'Socials',
 			id: '2',
 			links: [
 				{
@@ -165,17 +167,9 @@ const CONFIG = {
 					link: 'https://www.linkedin.com/in/marcelo-brito-287122204/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
-				},
+					name: 'Instagram',
+					link: 'https://www.instagram.com/marcelo_henri22/',
+				}
 			],
 		},
 	],
