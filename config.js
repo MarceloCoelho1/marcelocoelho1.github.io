@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Instagram',
+			icon: 'instagram',
+			link: 'https://www.instagram.com/marcelo_henri22/',
 		},
 		{
 			id: '4',
