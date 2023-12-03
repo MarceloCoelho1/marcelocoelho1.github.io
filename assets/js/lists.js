@@ -6,14 +6,14 @@
 
 const generateFirstListsContainer = () => {
   for (const list of CONFIG.firstlistsContainer) {
-    if (list.links.length == 2) {
+    if (list.links.length == 3) {
       let item = `
       <div class="card list list__${list.id}" id="list_${list.id}">
         <div class="titleContainer">
           <p class="titleTab">${list.titleTab}</p>
           <i class="listIcon" icon-name="${list.icon}"></i>
         </div>
-        
+        <div class="list-links">
         <a
         target="${CONFIG.openInNewTab ? '_blank' : ''}"
         href="${list.links[0].link}"
@@ -24,6 +24,13 @@ const generateFirstListsContainer = () => {
         href="${list.links[1].link}"
         class="listItem"
         >${list.links[1].name}</a>
+        <a
+        target="${CONFIG.openInNewTab ? '_blank' : ''}"
+        href="${list.links[2].link}"
+        class="listItem"
+        >${list.links[2].name}</a>
+        </div>
+        
       </div>
     `;
       const position = 'beforeend';
@@ -35,6 +42,7 @@ const generateFirstListsContainer = () => {
           <p class="titleTab">${list.titleTab}</p>
           <i class="listIcon" icon-name="${list.icon}"></i>
         </div>
+        <div class="list-links">
         
         <a
         target="${CONFIG.openInNewTab ? '_blank' : ''}"
@@ -56,6 +64,8 @@ const generateFirstListsContainer = () => {
         href="${list.links[3].link}"
         class="listItem"
         >${list.links[3].name}</a>
+        </div>
+
       </div>
     `;
       const position = 'beforeend';

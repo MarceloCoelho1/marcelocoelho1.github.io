@@ -169,6 +169,10 @@ const CONFIG = {
 				{
 					name: 'Instagram',
 					link: 'https://www.instagram.com/marcelo_henri22/',
+				},
+				{
+					name: 'Email',
+					link: 'mailto:mhbcoelho99@gmail.com',
 				}
 			],
 		},

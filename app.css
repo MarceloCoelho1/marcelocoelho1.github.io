@@ -295,6 +295,15 @@ body {
   flex-direction: column;
 }
 
+.list-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+
+}
+
 .list__1 {
   grid-column: 1;
   grid-row: 1 / span 2;
@@ -343,7 +352,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* M E D I A - Q U E R I E S */
