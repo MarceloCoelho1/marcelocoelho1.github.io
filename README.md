@@ -1,5 +1,3 @@
-![image](assets/img/initial_page.png)
-
 
 
 ## this repo is used as my inital page in my web browser
@@ -28,8 +26,7 @@ You can use different Add-ons/Extensions for it
 
 All customizations can be managed in the `config.js` file:
 
-> You can change the background by substituting the `background.jpg` file in `assets` folder.
 
 ## ❗ Important
 this repo is a clone of bento repository, please check his repo:
-https://github.com/migueravila/Bento
+https://github.com/AllJavi/tartarus-startpage
