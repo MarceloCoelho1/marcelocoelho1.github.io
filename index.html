@@ -14,6 +14,13 @@
   </head>
   <body>
     <tabs-list></tabs-list>
+    <script src="https://cdn.jsdelivr.net/npm/elastic-apm-js-base@1.0.0/dist/bundles/elastic-apm-js-base.umd.js" crossorigin></script>
+    <script>
+      window.elasticApm.init({
+        serviceName: 'test',
+        serverUrl: 'https://46baf1cd39e34a72bdc3179bf54bafd9.apm.us-east-2.aws.elastic-cloud.com:443',
+      })
+    </script>
 
     <script type="text/javascript" src="src/common/utils.js"></script>
     <script type="text/javascript" src="src/common/storage.js"></script>
